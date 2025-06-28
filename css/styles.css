@@ -259,9 +259,17 @@ body.dark{
     transition: var(--transition);
 }
 
-.image__experience {
+.image__experience1 {
     width: 30px;             /* o cualquier ancho fijo */
-    height: 30px;            /* alto igual para forma cuadrada */
+    height: 30px;
+    background-color: green;            /* alto igual para forma cuadrada */
+    border-radius: 10px;      /* bordes redondeados */
+    margin-right: 1em;
+}
+.image__experience2 {
+    width: 30px;             /* o cualquier ancho fijo */
+    height: 30px;
+    background-color: blue;            /* alto igual para forma cuadrada */
     border-radius: 10px;      /* bordes redondeados */
     margin-right: 1em;
 }
